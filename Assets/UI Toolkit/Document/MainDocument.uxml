@@ -2,7 +2,7 @@
     <ui:Template name="OperationPage" src="project://database/Assets/UI%20Toolkit/GamePage/OperationPage/OperationPage.uxml?fileID=9197481963319205126&amp;guid=c189b4d748a65d94986f72a23bc821c6&amp;type=3#OperationPage" />
     <ui:Template name="BuildingWindow" src="project://database/Assets/UI%20Toolkit/GameWindow/StandardWindow/BuildingWindow.uxml?fileID=9197481963319205126&amp;guid=85f7b71006200b94cbac9bb047241a5d&amp;type=3#BuildingWindow" />
     <Style src="project://database/Assets/UI%20Toolkit/Document/Document.uss?fileID=7433441132597879392&amp;guid=1dc4014ef9b94df49b697e408e0ab974&amp;type=3#Document" />
-    <ui:Instance template="OperationPage" name="OperationPage" class="document-page" />
+    <ui:Instance template="OperationPage" name="OperationPage" picking-mode="Ignore" class="document-page" />
     <ui:VisualElement name="GameWindow" picking-mode="Ignore" class="document-page" style="flex-grow: 1;">
         <ui:Instance template="BuildingWindow" name="BuildingWindow" picking-mode="Ignore" />
     </ui:VisualElement>

@@ -1,18 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using MuHua;
 
-public class UIWindowManager : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class UIWindowManager : ModuleUIPage {
+	public override VisualElement Element => root.Q<VisualElement>("GameWindow");
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
