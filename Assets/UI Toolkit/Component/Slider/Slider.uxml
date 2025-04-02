@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MuHua/UITool/UISlider/UISlider.uss?fileID=7433441132597879392&amp;guid=ca2fb5adc90c9af4cb0426c459d7e9e5&amp;type=3#UISlider" />
+    <ui:VisualElement name="SliderHorizontal1" class="slider-horizontal">
+        <ui:VisualElement name="Container" class="slider-horizontal-container">
+            <ui:VisualElement name="Tracker" class="slider-horizontal-tracker">
+                <ui:VisualElement name="Dragger" class="slider-horizontal-dragger" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="SliderHorizontal2" class="slider-horizontal">
+        <ui:VisualElement name="Container" class="slider-horizontal-container" style="flex-direction: row-reverse;">
+            <ui:VisualElement name="Tracker" class="slider-horizontal-tracker" style="flex-direction: row-reverse;">
+                <ui:VisualElement name="Dragger" class="slider-horizontal-dragger" style="translate: -8px 0;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 1; flex-direction: row; justify-content: space-around;">
+        <ui:VisualElement name="SliderVertical1" class="slider-vertical">
+            <ui:VisualElement name="Container" class="slider-vertical-container">
+                <ui:VisualElement name="Tracker" class="slider-vertical-tracker">
+                    <ui:VisualElement name="Dragger" class="slider-vertical-dragger" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="SliderVertical2" class="slider-vertical">
+            <ui:VisualElement name="Container" class="slider-vertical-container" style="flex-direction: column-reverse;">
+                <ui:VisualElement name="Tracker" class="slider-vertical-tracker" style="flex-direction: column-reverse;">
+                    <ui:VisualElement name="Dragger" class="slider-vertical-dragger" style="translate: 0 -8px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

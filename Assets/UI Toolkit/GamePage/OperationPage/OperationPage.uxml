@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/GamePage/OperationPage/OperationPage.uss?fileID=7433441132597879392&amp;guid=e9d221bb09ff1fe439cfb686ececbbbd&amp;type=3#OperationPage" />
+    <Style src="project://database/Assets/UI%20Toolkit/GamePage/GamePage.uss?fileID=7433441132597879392&amp;guid=27fe7690a4ef4e943af1d381a60498b2&amp;type=3#GamePage" />
+    <ui:VisualElement style="flex-grow: 1; position: absolute; bottom: 0; right: 0; left: 0; height: 100px; flex-direction: row; align-items: center; justify-content: center;">
+        <ui:Label tabindex="-1" text="城堡" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button01" />
+        <ui:Label tabindex="-1" text="房屋" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button01" />
+        <ui:Label tabindex="-1" text="工作台" parse-escape-sequences="true" display-tooltip-when-elided="true" class="button01" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MuHua/UITool/FontLibrary/Fonts.uss?fileID=7433441132597879392&amp;guid=52d41516f77d64346b5cd0ac76ba5b95&amp;type=3#Fonts" />
+    <ui:Label tabindex="-1" text="哈哈" parse-escape-sequences="true" display-tooltip-when-elided="true" style="-unity-font-style: normal;" />
+</ui:UXML>

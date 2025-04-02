@@ -1,0 +1,23 @@
+.scroller-horizontal {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.scroller-horizontal-dragger {
+    background-color: rgb(255, 126, 126);
+    width: 30px;
+    height: 100%;
+}
+
+.scroller-vertical {
+    width: 30px;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.scroller-vertical-dragger {
+    background-color: rgb(255, 126, 126);
+    width: 100%;
+    height: 30px;
+}

@@ -1,0 +1,50 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="TypeTemplate" src="project://database/Assets/UI%20Toolkit/Template/TypeTemplate.uxml?fileID=9197481963319205126&amp;guid=d800a223dd52e04428307e247bf82ed8&amp;type=3#TypeTemplate" />
+    <ui:Template name="ItemTemplate" src="project://database/Assets/UI%20Toolkit/Template/ItemTemplate.uxml?fileID=9197481963319205126&amp;guid=2219ac48cb22ea44b820c626b8308414&amp;type=3#ItemTemplate" />
+    <Style src="project://database/Assets/UI%20Toolkit/GameWindow/GameWindow.uss?fileID=7433441132597879392&amp;guid=ac48829e1a44d834eb1bf8c6636310eb&amp;type=3#GameWindow" />
+    <Style src="project://database/Assets/UI%20Toolkit/Template/Template.uss?fileID=7433441132597879392&amp;guid=a992b6ee8e117cd49b0d341d05ca403d&amp;type=3#Template" />
+    <Style src="project://database/Assets/UI%20Toolkit/Component/Window/Window.uss?fileID=7433441132597879392&amp;guid=71fd1505cc1aa1e4297e4f4534cc0124&amp;type=3#Window" />
+    <Kamgam.UIToolkitGlow.Shadow name="Window" inner-color="#0000004C" outer-color="#00000000" blur-width="20" style="align-items: auto; align-self: flex-start; position: absolute; left: 50px; top: 50px; overflow: hidden;">
+        <ui:VisualElement name="Window" class="window" style="height: 600px; width: 420px;">
+            <ui:VisualElement name="Top" class="window-top">
+                <ui:Label text="城堡" name="Title" class="window-title" />
+                <ui:VisualElement name="Close" class="window-close-button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Container" class="window-container" style="flex-grow: 1; flex-direction: row;">
+                <ui:VisualElement name="TypeView" class="scrollview" style="width: 100px; height: auto;">
+                    <ui:VisualElement name="Viewport" class="scrollview-viewport" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                        <ui:VisualElement name="Container" class="scrollview-container" style="align-items: center; width: 100%; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+                            <ui:Instance template="TypeTemplate" name="TypeTemplate" />
+                            <ui:Instance template="TypeTemplate" name="TypeTemplate" />
+                            <ui:Instance template="TypeTemplate" name="TypeTemplate" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ScrollerHorizontal" class="scroller-horizontal scrollview-horizontal-scroller" style="right: 0; display: none;">
+                        <ui:VisualElement name="Dragger" class="scroller-horizontal-dragger scrollview-horizontal-scroller-dragger" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ScrollerVertical" class="scroller-vertical scrollview-vertical-scroller" style="display: none;">
+                        <ui:VisualElement name="Dragger" class="scroller-vertical-dragger scrollview-vertical-scroller-dragger" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="TemplateView" class="scrollview" style="width: auto; height: auto; flex-grow: 1;">
+                    <ui:VisualElement name="Viewport" class="scrollview-viewport" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
+                        <ui:VisualElement name="Container" class="scrollview-container" style="flex-direction: row; flex-wrap: wrap; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; justify-content: center;">
+                            <ui:Instance template="ItemTemplate" name="ItemTemplate" />
+                            <ui:Instance template="ItemTemplate" name="ItemTemplate" />
+                            <ui:Instance template="ItemTemplate" name="ItemTemplate" />
+                            <ui:Instance template="ItemTemplate" name="ItemTemplate" />
+                            <ui:Instance template="ItemTemplate" name="ItemTemplate" />
+                            <ui:Instance template="ItemTemplate" name="ItemTemplate" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ScrollerHorizontal" class="scroller-horizontal scrollview-horizontal-scroller" style="right: 0; display: none;">
+                        <ui:VisualElement name="Dragger" class="scroller-horizontal-dragger scrollview-horizontal-scroller-dragger" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="ScrollerVertical" class="scroller-vertical scrollview-vertical-scroller" style="display: none;">
+                        <ui:VisualElement name="Dragger" class="scroller-vertical-dragger scrollview-vertical-scroller-dragger" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </Kamgam.UIToolkitGlow.Shadow>
+</ui:UXML>

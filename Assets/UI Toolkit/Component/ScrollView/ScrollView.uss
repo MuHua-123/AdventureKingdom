@@ -1,0 +1,49 @@
+.scrollview {
+}
+
+.scrollview-viewport {
+    background-color: rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    flex-grow: 1;
+}
+
+.scrollview-container {
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.1s;
+    flex-direction: column;
+    align-self: flex-start;
+    flex-shrink: 0;
+}
+
+.scrollview-horizontal-scroller {
+    height: 30px;
+    width: auto;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    right: 30px;
+    bottom: 0;
+}
+
+.scrollview-horizontal-scroller-dragger {
+    width: 30px;
+    height: 100%;
+    background-color: rgb(255, 141, 141);
+}
+
+.scrollview-vertical-scroller {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.scrollview-vertical-scroller-dragger {
+    background-color: rgb(255, 126, 126);
+    width: 100%;
+    height: 30px;
+}

@@ -1,0 +1,110 @@
+.window {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.window-top {
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-left: 0;
+    height: 50px;
+    flex-direction: row;
+    flex-shrink: 1;
+    flex-grow: 0;
+    align-items: center;
+    min-height: 50px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.window-title {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    -unity-text-align: middle-left;
+    height: 30px;
+}
+
+.window-close-button {
+    background-color: rgb(255, 76, 57);
+    color: rgb(236, 240, 241);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(255, 76, 57);
+    border-right-color: rgb(255, 76, 57);
+    border-top-color: rgb(255, 76, 57);
+    border-bottom-color: rgb(255, 76, 57);
+    height: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-image: url("project://database/Assets/UI%20Toolkit/Assets/close-fill@1x.png?fileID=2800000&guid=af4b9bcecbef9604e8894b1e2a66302e&type=3#close-fill@1x");
+    width: 30px;
+    transition-duration: 0.1s;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.window-close-button:hover {
+    background-color: rgb(255, 70, 51);
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    scale: 1.1 1.1;
+}
+
+.window-container {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    height: 300px;
+}
+
+.window-hidden {
+    display: none;
+    opacity: 0;
+}
