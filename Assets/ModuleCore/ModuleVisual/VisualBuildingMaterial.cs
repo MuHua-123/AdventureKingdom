@@ -4,9 +4,9 @@ using UnityEngine;
 using MuHua;
 
 /// <summary>
-/// 全局管理器
+/// 建筑材料生成器
 /// </summary>
-public class SingleManager : ModuleSingle<SingleManager> {
+public class VisualBuildingMaterial : ModuleSingle<VisualBuildingMaterial> {
 
 	protected override void Awake() => NoReplace();
 

@@ -4,9 +4,9 @@ using UnityEngine;
 using MuHua;
 
 /// <summary>
-/// 全局管理器
+/// 输入模块
 /// </summary>
-public class SingleManager : ModuleSingle<SingleManager> {
+public class ModuleInput : ModuleSingle<ModuleInput> {
 
 	protected override void Awake() => NoReplace();
 

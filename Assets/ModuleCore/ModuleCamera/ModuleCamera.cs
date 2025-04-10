@@ -4,9 +4,9 @@ using UnityEngine;
 using MuHua;
 
 /// <summary>
-/// 全局管理器
+/// 相机模块
 /// </summary>
-public class SingleManager : ModuleSingle<SingleManager> {
+public class ModuleCamera : ModuleSingle<ModuleCamera> {
 
 	protected override void Awake() => NoReplace();
 
