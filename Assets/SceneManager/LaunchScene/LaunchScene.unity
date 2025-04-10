@@ -167,6 +167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   document: {fileID: 1780698615}
+  TemplateAsset1: {fileID: 9197481963319205126, guid: d800a223dd52e04428307e247bf82ed8, type: 3}
+  TemplateAsset2: {fileID: 9197481963319205126, guid: 2219ac48cb22ea44b820c626b8308414, type: 3}
 --- !u!1 &528613382
 GameObject:
   m_ObjectHideFlags: 0

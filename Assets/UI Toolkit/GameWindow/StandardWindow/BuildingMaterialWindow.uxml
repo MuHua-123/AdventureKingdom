@@ -11,7 +11,7 @@
                 <ui:VisualElement name="Close" class="window-close-button" />
             </ui:VisualElement>
             <ui:VisualElement name="Container" class="window-container" style="flex-grow: 1; flex-direction: row;">
-                <ui:VisualElement name="TypeView" class="scrollview" style="width: 100px; height: auto;">
+                <ui:VisualElement name="TypeScrollView" class="scrollview" style="width: 100px; height: auto;">
                     <ui:VisualElement name="Viewport" class="scrollview-viewport" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
                         <ui:VisualElement name="Container" class="scrollview-container" style="align-items: center; width: 100%; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
                             <ui:Instance template="TypeTemplate" name="TypeTemplate" />
@@ -26,7 +26,7 @@
                         <ui:VisualElement name="Dragger" class="scroller-vertical-dragger scrollview-vertical-scroller-dragger" />
                     </ui:VisualElement>
                 </ui:VisualElement>
-                <ui:VisualElement name="TemplateView" class="scrollview" style="width: auto; height: auto; flex-grow: 1;">
+                <ui:VisualElement name="ItemScrollView" class="scrollview" style="width: auto; height: auto; flex-grow: 1;">
                     <ui:VisualElement name="Viewport" class="scrollview-viewport" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;">
                         <ui:VisualElement name="Container" class="scrollview-container" style="flex-direction: row; flex-wrap: wrap; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; justify-content: center;">
                             <ui:Instance template="ItemTemplate" name="ItemTemplate" />

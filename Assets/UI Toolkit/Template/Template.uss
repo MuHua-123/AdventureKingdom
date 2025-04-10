@@ -28,6 +28,10 @@
     transition-duration: 0.1s;
 }
 
+.template-type-s {
+    background-color: rgb(0, 128, 204);
+}
+
 .template-type:hover {
     border-top-width: 2px;
     border-right-width: 2px;

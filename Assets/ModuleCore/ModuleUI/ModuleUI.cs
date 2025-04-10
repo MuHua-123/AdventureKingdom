@@ -1,18 +1,27 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
+using MuHua;
 
-public class ModuleUI : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+/// <summary>
+/// UI模块
+/// </summary>
+public class ModuleUI : ModuleSingle<ModuleUI> {
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	public static event Action<DataPage> OnJumpPage;
+
+	public static void Jump(DataPage pageType) => OnJumpPage?.Invoke(pageType);
+
+	public UIDocument document;// 绑定的文档
+	public UIWindowManager windowManager;// 窗口管理器
+
+	/// <summary> 根目录文档 </summary>
+	public VisualElement root => document.rootVisualElement;
+
+	protected override void Awake() => NoReplace();
+
+	/// <summary> 显示建筑材料窗口 </summary> 
+	public void ShowBuildingMaterialWindow(bool show) => windowManager.ShowBuildingMaterialWindow(show);
 }

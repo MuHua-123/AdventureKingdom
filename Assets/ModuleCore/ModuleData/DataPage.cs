@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 建筑材料
+/// 页面类型
 /// </summary>
-public class PrefabBuildingMaterial : MonoBehaviour {
-	public Texture2D texture;
+public enum DataPage {
+
 }

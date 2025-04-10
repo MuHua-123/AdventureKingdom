@@ -4,6 +4,6 @@
     <Style src="project://database/Assets/UI%20Toolkit/Document/Document.uss?fileID=7433441132597879392&amp;guid=1dc4014ef9b94df49b697e408e0ab974&amp;type=3#Document" />
     <ui:Instance template="OperationPage" name="OperationPage" picking-mode="Ignore" class="document-page" />
     <ui:VisualElement name="GameWindow" picking-mode="Ignore" class="document-page" style="flex-grow: 1;">
-        <ui:Instance template="BuildingWindow" name="BuildingWindow" picking-mode="Ignore" />
+        <ui:Instance template="BuildingWindow" name="BuildingMaterialWindow" picking-mode="Ignore" />
     </ui:VisualElement>
 </ui:UXML>
