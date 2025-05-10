@@ -4,8 +4,8 @@
     <Style src="project://database/Assets/UI%20Toolkit/GameWindow/GameWindow.uss?fileID=7433441132597879392&amp;guid=ac48829e1a44d834eb1bf8c6636310eb&amp;type=3#GameWindow" />
     <Style src="project://database/Assets/UI%20Toolkit/Template/Template.uss?fileID=7433441132597879392&amp;guid=a992b6ee8e117cd49b0d341d05ca403d&amp;type=3#Template" />
     <Style src="project://database/Assets/UI%20Toolkit/Component/Window/Window.uss?fileID=7433441132597879392&amp;guid=71fd1505cc1aa1e4297e4f4534cc0124&amp;type=3#Window" />
-    <Kamgam.UIToolkitGlow.Shadow name="Window" inner-color="#0000004C" outer-color="#00000000" blur-width="20" style="align-items: auto; align-self: flex-start; position: absolute; left: 50px; top: 50px; overflow: hidden;">
-        <ui:VisualElement name="Window" class="window" style="height: 600px; width: 420px;">
+    <Kamgam.UIToolkitGlow.Shadow name="Window" inner-color="#0000004C" outer-color="#00000000" blur-width="20" class="window-hidden" style="align-items: auto; align-self: flex-start; position: absolute; left: 50px; top: 50px; overflow: hidden;">
+        <ui:VisualElement class="window" style="height: 600px; width: 420px;">
             <ui:VisualElement name="Top" class="window-top">
                 <ui:Label text="城堡" name="Title" class="window-title" />
                 <ui:VisualElement name="Close" class="window-close-button" />

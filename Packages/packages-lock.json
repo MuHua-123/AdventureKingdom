@@ -255,19 +255,28 @@
       },
       "url": "https://packages.unity.cn"
     },
+    "muhua-hot-module": {
+      "version": "file:HotModule",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.addressables": "1.21.21",
+        "com.unity.render-pipelines.universal": "14.0.11"
+      }
+    },
     "muhua-tools": {
       "version": "https://github.com/MuHua-123/MuHua-Core.git?path=Packages/Tools",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "909d9040a44022e70a5970ecd33c53ee99b164a2"
+      "hash": "d3b75a4e58436a0346973d4bc0180605947ace3a"
     },
     "muhua-ui-tool": {
       "version": "https://github.com/MuHua-123/MuHua-Core.git?path=Packages/UITool",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "d6d945c2ce687d1c4245c853ed77f82d2524d3a5"
+      "hash": "d3b75a4e58436a0346973d4bc0180605947ace3a"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",

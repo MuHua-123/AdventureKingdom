@@ -6,8 +6,8 @@ using MuHua;
 /// <summary>
 /// 建筑材料生成器
 /// </summary>
-public class VisualBuildingMaterial : ModuleSingle<VisualBuildingMaterial> {
+// public class VisualBuildingMaterial : VisualController<VisualBuildingMaterial> {
 
-	protected override void Awake() => NoReplace();
+// 	protected override void Awake() => NoReplace();
 
-}
+// }

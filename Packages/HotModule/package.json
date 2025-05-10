@@ -1,0 +1,15 @@
+{
+  "name": "muhua-hot-module",
+  "version": "1.0.0",
+  "displayName": "MuHua HotModule",
+  "description": "\u70ed\u66f4\u65b0\u6a21\u5757\u5305",
+  "author": {
+    "name": "MuHua",
+    "email": "muhua233@qq.com"
+  },
+  "type": "tool",
+  "dependencies": {
+    "com.unity.addressables": "1.21.21",
+    "com.unity.render-pipelines.universal": "14.0.11"
+  }
+}

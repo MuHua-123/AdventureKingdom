@@ -10,9 +10,9 @@ using MuHua;
 /// </summary>
 public class ModuleUI : ModuleSingle<ModuleUI> {
 
-	public static event Action<DataPage> OnJumpPage;
+	public static event Action<EnumPage> OnJumpPage;
 
-	public static void Jump(DataPage pageType) => OnJumpPage?.Invoke(pageType);
+	public static void Jump(EnumPage pageType) => OnJumpPage?.Invoke(pageType);
 
 	public UIDocument document;// 绑定的文档
 	public UIWindowManager windowManager;// 窗口管理器
