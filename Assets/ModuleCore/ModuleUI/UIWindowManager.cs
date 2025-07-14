@@ -13,7 +13,7 @@ public class UIWindowManager : ModuleUIPage {
 
 	private UIBuildingMaterialWindow buildingMaterialWindow;
 
-	public override VisualElement Element => root.Q<VisualElement>("GameWindow");
+	public override VisualElement Element => root.Q<VisualElement>("Window");
 	public VisualElement BuildingMaterialWindow => Q<VisualElement>("BuildingMaterialWindow");
 
 	private void Awake() {

@@ -9,10 +9,10 @@ using MuHua;
 /// UI模块
 /// </summary>
 public class ModuleUI : ModuleSingle<ModuleUI> {
-
+	/// <summary> 跳转页面事件 </summary>
 	public static event Action<EnumPage> OnJumpPage;
-
-	public static void Jump(EnumPage pageType) => OnJumpPage?.Invoke(pageType);
+	/// <summary> 跳转页面 </summary>
+	public static void Settings(EnumPage pageType) => OnJumpPage?.Invoke(pageType);
 
 	public UIDocument document;// 绑定的文档
 	public UIWindowManager windowManager;// 窗口管理器
@@ -24,4 +24,10 @@ public class ModuleUI : ModuleSingle<ModuleUI> {
 
 	/// <summary> 显示建筑材料窗口 </summary> 
 	public void ShowBuildingMaterialWindow(bool show) => windowManager.ShowBuildingMaterialWindow(show);
+}
+/// <summary>
+/// 页面类型
+/// </summary>
+public enum EnumPage {
+	None,
 }

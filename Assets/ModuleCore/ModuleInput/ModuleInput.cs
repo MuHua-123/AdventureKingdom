@@ -25,7 +25,7 @@ public class ModuleInput : ModuleSingle<ModuleInput> {
 	public static bool IsPointerOverUIObject => isPointerOverUIObject;
 
 	/// <summary> 设置输入模式 </summary>
-	public static void Mode(EnumInputMode mode) {
+	public static void Settings(EnumInputMode mode) {
 		inputMode = mode;
 		OnInputMode?.Invoke(mode);
 	}
@@ -49,4 +49,18 @@ public class ModuleInput : ModuleSingle<ModuleInput> {
         isPointerOverUIObject = EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId);
 #endif
 	}
+}
+/// <summary>
+/// 输入模式
+/// </summary>
+public enum EnumInputMode {
+	None,// 无
+
+	// FixedEdit,// 固定编辑
+
+	// FixedPreview,// 固定编辑
+
+	// FreeEdit,// 自由编辑
+
+	ThirdPerson,// 第三人称
 }

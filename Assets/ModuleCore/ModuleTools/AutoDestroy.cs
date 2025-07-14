@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// 页面类型
+/// 自动销毁
 /// </summary>
-public enum EnumPage
-{
-
+public class AutoDestroy : MonoBehaviour {
+	private void Awake() => Destroy(gameObject);
 }
