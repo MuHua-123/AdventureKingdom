@@ -42,8 +42,8 @@ public class UIBuildingMaterialWindow : UIWindow {
 	}
 
 	/// <summary> 设置活动状态 </summary>
-	public override void SetActive(bool active) {
-		base.SetActive(active);
+	public void SetActive(bool active) {
+		base.Settings(active);
 		if (!active) { return; }
 		MaterialTypes.Create(AssetsBuildingMaterial.Datas);
 		MaterialTypes[0].Select();

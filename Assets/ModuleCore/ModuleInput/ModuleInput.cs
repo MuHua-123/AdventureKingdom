@@ -11,11 +11,11 @@ using MuHua;
 public class ModuleInput : ModuleSingle<ModuleInput> {
 
 	/// <summary> 当前输入模式 </summary>
-	public static EnumInputMode inputMode;
+	public static InputMode inputMode;
 	/// <summary> 鼠标指针位置 </summary>
 	public static Vector3 mousePosition;
 	/// <summary> 转换模式事件 </summary>
-	public static event Action<EnumInputMode> OnInputMode;
+	public static event Action<InputMode> OnInputMode;
 	/// <summary> 临时禁用事件 </summary>
 	public static event Action<bool> OnTemporarilyDisable;
 
@@ -25,7 +25,7 @@ public class ModuleInput : ModuleSingle<ModuleInput> {
 	public static bool IsPointerOverUIObject => isPointerOverUIObject;
 
 	/// <summary> 设置输入模式 </summary>
-	public static void Settings(EnumInputMode mode) {
+	public static void Settings(InputMode mode) {
 		inputMode = mode;
 		OnInputMode?.Invoke(mode);
 	}
@@ -53,7 +53,7 @@ public class ModuleInput : ModuleSingle<ModuleInput> {
 /// <summary>
 /// 输入模式
 /// </summary>
-public enum EnumInputMode {
+public enum InputMode {
 	None,// 无
 
 	// FixedEdit,// 固定编辑

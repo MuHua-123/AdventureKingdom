@@ -10,6 +10,8 @@ public abstract class VisualController<T> : MonoBehaviour {
 	public abstract void UpdateVisual(ref T visual);
 	/// <summary> 释放可视化内容 </summary>
 	public abstract void ReleaseVisual(T visual);
+	/// <summary> 释放全部可视化内容 </summary>
+	public abstract void ReleaseAllVisual();
 
 	/// <summary> 创建可视化内容 </summary>
 	public static void Create<Type>(ref Type value, Transform original, Transform parent) {

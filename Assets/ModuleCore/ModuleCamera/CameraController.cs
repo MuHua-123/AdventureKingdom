@@ -27,7 +27,7 @@ public abstract class CameraController : MonoBehaviour {
 	}
 
 	/// <summary> 相机模式 </summary>
-	public abstract void ModuleCamera_OnCameraMode(EnumCameraMode mode);
+	public abstract void ModuleCamera_OnCameraMode(CameraMode mode);
 	/// <summary> 重置相机 </summary>
 	public abstract void ResetCamera();
 

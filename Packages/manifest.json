@@ -11,7 +11,7 @@
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.9.4",
     "muhua-tools": "https://github.com/MuHua-123/MuHua-Core.git?path=Packages/Tools",
-    "muhua-ui-tool": "https://github.com/MuHua-123/MuHua-Core.git?path=Packages/UITool",
+    "muhua-ui-tool": "https://github.com/MuHua-123/MuHua-UIElements.git?path=Packages/UITool",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",

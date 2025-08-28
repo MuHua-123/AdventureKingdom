@@ -11,9 +11,9 @@ public class ModuleCamera : ModuleSingle<ModuleCamera> {
 	/// <summary> 当前相机 </summary>
 	public static CameraController CurrentCamera;
 	/// <summary> 相机模式事件 </summary>
-	public static event Action<EnumCameraMode> OnCameraMode;
+	public static event Action<CameraMode> OnCameraMode;
 	/// <summary> 设置相机模式 </summary>
-	public static void Settings(EnumCameraMode mode, bool isReset = true) {
+	public static void Settings(CameraMode mode, bool isReset = true) {
 		OnCameraMode?.Invoke(mode);
 		if (isReset) { I.ResetCamera(); }
 	}
@@ -33,7 +33,7 @@ public class ModuleCamera : ModuleSingle<ModuleCamera> {
 /// <summary>
 /// 相机模式
 /// </summary>
-public enum EnumCameraMode {
+public enum CameraMode {
 	None,// 无
 
 	// FixedEdit,// 固定编辑

@@ -19,5 +19,5 @@ public abstract class InputControl : MonoBehaviour {
 	}
 
 	/// <summary> 输入模式 </summary>
-	protected abstract void ModuleInput_OnInputMode(EnumInputMode mode);
+	protected abstract void ModuleInput_OnInputMode(InputMode mode);
 }

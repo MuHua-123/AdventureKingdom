@@ -30,9 +30,9 @@ public class CameraDefault : CameraController {
 		set => throw new System.NotImplementedException();
 	}
 
-	public override void ModuleCamera_OnCameraMode(EnumCameraMode mode) {
-		gameObject.SetActive(mode == EnumCameraMode.None);
-		if (mode == EnumCameraMode.None) { ModuleCamera.CurrentCamera = this; }
+	public override void ModuleCamera_OnCameraMode(CameraMode mode) {
+		gameObject.SetActive(mode == CameraMode.None);
+		if (mode == CameraMode.None) { ModuleCamera.CurrentCamera = this; }
 	}
 
 	public override void ResetCamera() {
