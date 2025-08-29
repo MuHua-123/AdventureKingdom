@@ -15,15 +15,11 @@ public class ModuleUI : ModuleSingle<ModuleUI> {
 	public static void Settings(Page pageType) => OnJumpPage?.Invoke(pageType);
 
 	public UIDocument document;// 绑定的文档
-	public UIWindowManager windowManager;// 窗口管理器
 
 	/// <summary> 根目录文档 </summary>
 	public VisualElement root => document.rootVisualElement;
 
 	protected override void Awake() => NoReplace();
-
-	/// <summary> 显示建筑材料窗口 </summary> 
-	public void ShowBuildingMaterialWindow(bool show) => windowManager.ShowBuildingMaterialWindow(show);
 }
 /// <summary>
 /// 页面类型
